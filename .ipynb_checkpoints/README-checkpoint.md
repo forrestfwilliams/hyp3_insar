@@ -3,8 +3,8 @@ The combination of Sentinel-1 SAR imagery and the HyP3 on-demand InSAR processin
 
 1. Request, download and prep a stack of HyP3 interferograms
 2. Identify an area of analysis within the InSAR stack
-3. Using MintPy, perform a SBAS-based InSAR timeseries analysis using a double difference filter to highlight local deformation (see Roering et al 2020)
-4. Combine InSAR velocity datasets from ascending and descending orbits to estimate movement in the vertical direction and local deformation “hot spots”
+3. Using MintPy, perform a SBAS-based InSAR timeseries analysis using a double difference filter to highlight local deformation (see [Bekaert et al 2020](https://doi.org/10.1016/j.rse.2020.111983))
+4. Combine InSAR velocity datasets from ascending and descending orbits to estimate movement in the East-West / vertical direction and identify local deformation “hot spots”
 
 Each of these steps is contained within a separate notebook. Read on to learn more about each notebook.
 
@@ -32,7 +32,7 @@ I find that you are typically interested in a smaller area than the HyP3 InSAR p
 
 **Environment:** MintPy environment
 
-This notebook performs the InSAR time-series SBAS processing using MintPy. If you are not familiar with MintPy I would suggest reading through MintPy’s documentation and examples here.
+This notebook performs the InSAR time-series SBAS processing using MintPy. If you are not familiar with MintPy I would suggest reading through MintPy’s documentation and examples [here](https://github.com/insarlab/MintPy-tutorial).
 
 ## Step 4: Combining and filtering results
 **Notebook:** combine\_and\_mask.ipynb

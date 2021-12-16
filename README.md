@@ -32,7 +32,7 @@ I find that you are typically interested in a smaller area than the HyP3 InSAR p
 
 **Environment:** MintPy environment
 
-This notebook performs the InSAR time-series SBAS processing using MintPy. If you are not familiar with MintPy I would suggest reading through MintPy’s documentation and examples here.
+This notebook performs the InSAR time-series SBAS processing using MintPy. If you are not familiar with MintPy I would suggest reading through MintPy’s documentation and examples [here](https://github.com/insarlab/MintPy-tutorial).
 
 ## Step 4: Combining and filtering results
 **Notebook:** combine\_and\_mask.ipynb
